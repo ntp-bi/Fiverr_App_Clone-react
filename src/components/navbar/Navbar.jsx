@@ -45,7 +45,7 @@ function Navbar() {
                     {currentUser ? (
                         <div className="user" onClick={() => setOpen(!open)}>
                             <img
-                                src="https://images.pexels.com/photos/1115697/pexels-photo-1115697.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                                src="https://scontent.fhan20-1.fna.fbcdn.net/v/t1.30497-1/143086968_2856368904622192_1959732218791162458_n.png?_nc_cat=1&ccb=1-7&_nc_sid=5f2048&_nc_ohc=8Y8ZI9mqkjAQ7kNvgFxtpi_&_nc_ht=scontent.fhan20-1.fna&oh=00_AYBXafd2F5jLfUonh6wUF4DTQyx6YB-ZFOWtIc-3jptRGQ&oe=6693AEB8"
                                 alt=""
                             />
                             <span>{currentUser?.username}</span>
